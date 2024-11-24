@@ -37,6 +37,8 @@ cargo run -- --participants 5 --threshold 3 --output ./keys
 # Fork frost-dalek repository
 # Implement to_bytes() for SecretKey type
 # Add proper serialization traits
+# This would of course only be for demonstration purposes, 
+# as Secret Keys should not be accessible by the machine generating them
 
 # 5. Complete CLI Implementation
 # Once the above is completed, the CLI will support three main operations:
@@ -49,3 +51,9 @@ cargo run -- --participants 5 --threshold 3 --output ./keys
 
 # Verify signature
 # frost-cli verify --message "Hello, World" --signature signature.json
+
+## Improvements to the library
+# Documentation:
+# Although an example for a simple use case is already provided, a runnable example could be great
+# Adding a flow chart / sequence diagram would also greatly improve the comprehensibility of the protocl
+
